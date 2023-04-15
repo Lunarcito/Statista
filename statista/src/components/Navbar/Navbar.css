@@ -1,0 +1,28 @@
+.nav-container{
+    display:flex;
+    align-content:center;
+    flex-direction: column;
+    height:100%;
+    position: fixed;
+    padding: 0 1.5rem ;
+    font-size: 20px; 
+    background-color: rgb(15, 26, 44);
+    color:white;  
+
+}
+.logo{
+    margin-top:20px;
+    justify-self: center; 
+    padding: 0 2rem;
+}
+
+.nav-menu{
+    display:flex;
+    flex-direction: column;  
+}
+
+li{    
+  justify-content: space-between;  
+  padding-top: 60px;
+ 
+}
