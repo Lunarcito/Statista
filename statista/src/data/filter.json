@@ -1,0 +1,96 @@
+{
+    "filters": [
+      {
+        "device": "Smart Phones",
+        "brand": [
+          {
+            "name": "Apple",
+            "model": [
+              "iphone 14",
+              "iphone 14 pro",
+              "iphone 14 pro Max",
+              "iphone 13 pro"
+            ]
+          },
+          {
+            "name": "Samsung",
+            "model": [
+              "Galaxy S22",
+              "Galaxy S23 Ultra",
+              "Galaxy A53"
+            ]
+          },
+          {
+            "name": "Xiaomi",
+            "model": [
+              "Xiaomi 13 Pro",
+              "Xiaomi 13 Lite",
+              "Xiaomi 12T Pro"
+            ]
+          }
+        ]
+      },
+      {
+        "device": "Laptop",
+        "brand": [
+          {
+            "name": "Apple",
+            "model": [
+              "Mac Book Pro",
+              "MacBook Air ",
+              "iMac"
+            ]
+          },
+          {
+            "name": "Samsung",
+            "model": [
+              "Galaxy BookPro",
+              "Galaxy Book3",
+              "Galaxy BookPro 3"
+            ]
+          },
+          {
+            "name": "Xiaomi",
+            "model": [
+              "Xiaomi Book Pro",
+              "Xiami Redmi",
+              "Xiaomi Mi Gaming"
+            ]
+          }
+        ]
+      },
+      {
+        "device": "tablet",
+        "brand": [
+          {
+            "name": "Apple",
+            "model": [
+              "Ipad Pro",
+              "Ipad Air ",
+              "Ipad mini"
+            ]
+          },
+          {
+            "name": "Samsung",
+            "model": [
+              "Galaxy Tab S6 Lite",
+              "Galaxy Tab A8",
+              "Galaxy Tab S7"
+            ]
+          },
+          {
+            "name": "Xiaomi",
+            "model": [
+              "Xiaomi Mi Pad 5 Pro",
+              "Xiami Pad 5",
+              "Xiaomi Book S 12.4"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+
+            
+
+ 
