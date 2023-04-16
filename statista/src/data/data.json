@@ -1,0 +1,388 @@
+{
+    "data": [
+      {
+        "deviceType": "Phone",
+        "brand": "Apple",
+        "model": "iPhone 14 Pro",
+        "aspects": [
+          {
+            "name": "Quality",
+            "value": 90
+          },
+          {
+            "name": "Safety",
+            "value": 72
+          },
+          {
+            "name": "Design",
+            "value": 93
+          },
+          {
+            "name": "Service",
+            "value": 64
+          },
+          {
+            "name": "Cleaning",
+            "value": 61
+          },
+          {
+            "name": "Food taste",
+            "value": 87
+          }
+        ],
+        "reviews": {
+          "summary": {
+            "value": 4.5,
+            "total": 5480
+          },
+          "details": [
+            {
+              "code": 1,
+              "total": 281,
+              "percentage": 0.01
+            },
+            {
+              "code": 2,
+              "total": 320,
+              "percentage": 0.01
+            },
+            {
+              "code": 3,
+              "total": 729,
+              "percentage": 0.04
+            },
+            {
+              "code": 4,
+              "total": 632,
+              "percentage": 0.1
+            },
+            {
+              "code": 5,
+              "total": 4135,
+              "percentage": 0.84
+            }
+          ]
+        }
+      },
+      {
+        "deviceType": "Phone",
+        "brand": "Apple",
+        "model": "iPhone 14 Pro Max",
+        "aspects": [
+          {
+            "name": "Quality",
+            "value": 91
+          },
+          {
+            "name": "Safety",
+            "value": 70
+          },
+          {
+            "name": "Design",
+            "value": 92
+          },
+          {
+            "name": "Service",
+            "value": 67
+          },
+          {
+            "name": "Cleaning",
+            "value": 87
+          },
+          {
+            "name": "Food taste",
+            "value": 0
+          }
+        ],
+        "reviews": {
+          "summary": {
+            "value": 4.5,
+            "total": 5480
+          },
+          "details": [
+            {
+              "code": 1,
+              "total": 281,
+              "percentage": 0.01
+            },
+            {
+              "code": 2,
+              "total": 320,
+              "percentage": 0.01
+            },
+            {
+              "code": 3,
+              "total": 729,
+              "percentage": 0.04
+            },
+            {
+              "code": 4,
+              "total": 632,
+              "percentage": 0.1
+            },
+            {
+              "code": 5,
+              "total": 4135,
+              "percentage": 0.84
+            }
+          ]
+        }
+      },
+      {
+        "deviceType": "Phone",
+        "brand": "Apple",
+        "model": "iPhone XS",
+        "aspects": [
+          {
+            "name": "Quality",
+            "value": 76
+          },
+          {
+            "name": "Safety",
+            "value": 88
+          },
+          {
+            "name": "Design",
+            "value": 87
+          },
+          {
+            "name": "Service",
+            "value": 89
+          },
+          {
+            "name": "Cleaning",
+            "value": 76
+          },
+          {
+            "name": "Food taste",
+            "value": 0
+          }
+        ],
+        "reviews": {
+          "summary": {
+            "value": 4.5,
+            "total": 5480
+          },
+          "details": [
+            {
+              "code": 1,
+              "total": 281,
+              "percentage": 0.01
+            },
+            {
+              "code": 2,
+              "total": 320,
+              "percentage": 0.01
+            },
+            {
+              "code": 3,
+              "total": 729,
+              "percentage": 0.04
+            },
+            {
+              "code": 4,
+              "total": 632,
+              "percentage": 0.1
+            },
+            {
+              "code": 5,
+              "total": 4135,
+              "percentage": 0.84
+            }
+          ]
+        }
+      },
+      {
+        "deviceType": "Phone",
+        "brand": "Xiaomi",
+        "model": "Redmi Note 12",
+        "aspects": [
+          {
+            "name": "Quality",
+            "value": 95
+          },
+          {
+            "name": "Safety",
+            "value": 65
+          },
+          {
+            "name": "Design",
+            "value": 91
+          },
+          {
+            "name": "Service",
+            "value": 55
+          },
+          {
+            "name": "Cleaning",
+            "value": 68
+          },
+          {
+            "name": "Food taste",
+            "value": 0
+          }
+        ],
+        "reviews": {
+          "summary": {
+            "value": 4.5,
+            "total": 5480
+          },
+          "details": [
+            {
+              "code": 1,
+              "total": 281,
+              "percentage": 0.01
+            },
+            {
+              "code": 2,
+              "total": 320,
+              "percentage": 0.01
+            },
+            {
+              "code": 3,
+              "total": 729,
+              "percentage": 0.04
+            },
+            {
+              "code": 4,
+              "total": 632,
+              "percentage": 0.1
+            },
+            {
+              "code": 5,
+              "total": 4135,
+              "percentage": 0.84
+            }
+          ]
+        }
+      },
+      {
+        "deviceType": "Phone",
+        "brand": "Xiaomi",
+        "model": "Redmi 10C",
+        "aspects": [
+          {
+            "name": "Quality",
+            "value": 78
+          },
+          {
+            "name": "Safety",
+            "value": 45
+          },
+          {
+            "name": "Design",
+            "value": 92
+          },
+          {
+            "name": "Service",
+            "value": 43
+          },
+          {
+            "name": "Cleaning",
+            "value": 77
+          },
+          {
+            "name": "Food taste",
+            "value": 0
+          }
+        ],
+        "reviews": {
+          "summary": {
+            "value": 4.5,
+            "total": 5480
+          },
+          "details": [
+            {
+              "code": 1,
+              "total": 281,
+              "percentage": 0.01
+            },
+            {
+              "code": 2,
+              "total": 320,
+              "percentage": 0.01
+            },
+            {
+              "code": 3,
+              "total": 729,
+              "percentage": 0.04
+            },
+            {
+              "code": 4,
+              "total": 632,
+              "percentage": 0.1
+            },
+            {
+              "code": 5,
+              "total": 4135,
+              "percentage": 0.84
+            }
+          ]
+        }
+      },
+      {
+        "deviceType": "Laptop",
+        "brand": "Apple",
+        "model": "Macbook Pro 13",
+        "aspects": [
+          {
+            "name": "Quality",
+            "value": 99
+          },
+          {
+            "name": "Safety",
+            "value": 89
+          },
+          {
+            "name": "Design",
+            "value": 95
+          },
+          {
+            "name": "Service",
+            "value": 78
+          },
+          {
+            "name": "Cleaning",
+            "value": 87
+          },
+          {
+            "name": "Food taste",
+            "value": 1
+          }
+        ],
+        "reviews": {
+          "summary": {
+            "value": 4.5,
+            "total": 5480
+          },
+          "details": [
+            {
+              "code": 1,
+              "total": 281,
+              "percentage": 0.01
+            },
+            {
+              "code": 2,
+              "total": 320,
+              "percentage": 0.01
+            },
+            {
+              "code": 3,
+              "total": 729,
+              "percentage": 0.04
+            },
+            {
+              "code": 4,
+              "total": 632,
+              "percentage": 0.1
+            },
+            {
+              "code": 5,
+              "total": 4135,
+              "percentage": 0.84
+            }
+          ]
+        }
+      }
+    ]
+  }
