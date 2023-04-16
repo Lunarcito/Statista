@@ -1,0 +1,11 @@
+.filter-container{
+    display:flex;
+    align-content:center;
+    flex-direction:row;
+    /* width:100%; */
+    padding:  2rem 0 2rem; 
+    font-size: 14px; 
+    /* background-color: rgb(57, 168, 111); */
+    /* color:white;   */
+}
+
