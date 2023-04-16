@@ -1,11 +1,39 @@
 {
     "menu": [
-        "Aspects scores",
-        "Benchmark",
-        "Time series",
-        "Driver analysis",
-        "Aspect details",
-        "Change Dashboard",
-        "Log out"
+        {
+            "name": "Aspect scores",
+            "link": "/aspectscores",
+            "emoticon":"RiCompass2Line"
+        },
+        {
+            "name": "Benchmark",
+            "link": "benchmark",
+            "emoticon":"RiDatabaseLine"
+        },
+        {
+            "name": "Time series",
+            "link": "./",
+            "emoticon":"RiLineChartLine"          
+        },
+        {
+            "name": "Driver analysis",
+            "link": "./",
+            "emoticon":"RiDatabase2Line"            
+        },
+        {
+            "name": "Aspect details",
+            "link": "./",
+            "emoticon":"RiDashboardLine"
+        },
+        {
+            "name": "Change Dashboard",
+            "link": "./",
+            "emoticon":"RiDashboard2Line"     
+        },
+        {
+            "name": "Log out",
+            "link": "./",
+            "emoticon":"RiLoginCircleLine"
+        }
     ]
 }

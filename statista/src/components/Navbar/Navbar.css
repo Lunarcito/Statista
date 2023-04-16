@@ -3,13 +3,13 @@
     align-content:center;
     flex-direction: column;
     height:100%;
-    position: fixed;
-    padding: 0 1.5rem ;
-    font-size: 20px; 
+    float: left;
+    padding: 0 2rem 0 2rem; 
+    font-size: 14px; 
     background-color: rgb(15, 26, 44);
     color:white;  
-
 }
+
 .logo{
     margin-top:20px;
     justify-self: center; 
@@ -18,11 +18,24 @@
 
 .nav-menu{
     display:flex;
-    flex-direction: column;  
+    flex-direction: column;
+    padding: 0rem 2.5rem 0 1rem; 
 }
 
-li{    
-  justify-content: space-between;  
-  padding-top: 60px;
- 
+li{
+    padding-top: 4rem;
+}
+
+#linkid{
+    color:white;
+    text-decoration:none;
+}
+
+#linkid:hover{
+    color:rgb(53, 53, 94);
+    background:white;
+    border-radius:5px;
+    padding:1rem 1rem;
+    cursor:pointer;
+    text-decoration:none;
 }

@@ -1,0 +1,19 @@
+body {
+    background-color: blueviolet;
+}
+
+.app {
+    display: flex;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.content-container{
+    display:flex;
+    width: 100%;
+    align-content:center;
+    padding: 0 1.5rem;
+    font-size: 20px; 
+    background-color: white
+}
