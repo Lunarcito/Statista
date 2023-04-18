@@ -1,0 +1,52 @@
+.nav-container{
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    height:100%;
+    font-size: 1rem; 
+    background-color: rgb(15, 26, 44);
+    color:white;    
+    justify-content: center;
+}
+
+.logo{
+    margin-top:20px;
+    justify-content:start;
+    padding: 0 2rem;
+    margin: 0rem 0rem 3rem 0rem;
+    font-size:3rem;
+}
+
+.nav-menu{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+.custom-icon {
+    width: 20px;
+    margin-right:10px ;
+}
+
+#linkid {
+    text-decoration:none;
+    padding: 0rem 1rem 1rem 0rem;
+    margin: 1rem 1rem 1rem 1rem; 
+}
+
+#linkid:hover{
+    color:rgb(53, 53, 94);
+    background:white;
+    border-radius:5px;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 1rem 1rem 1rem 1rem; 
+    cursor:pointer;
+    text-decoration:none;
+}
