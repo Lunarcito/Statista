@@ -1,0 +1,33 @@
+h2{
+    font-size:2rem;
+}
+h4{
+    font-size: 1rem;
+    font-weight:bold
+}
+p{
+    font-size:0.8rem
+}
+.aspect-box-positive {
+    color:black;
+    background:rgb(215, 236, 215);
+    border-radius:1.5rem;
+    padding:1rem 1rem 1rem 1rem;
+    margin: 1rem 1rem 1rem 1rem;     
+}
+.aspect-box-negative {
+    color:black;
+    background:rgb(225, 209, 199);
+    border-radius:1.5rem;
+    padding:1rem 1rem 1rem 1rem;
+    margin: 1rem 1rem 1rem 1rem;    
+}
+
+.porcentages{
+    columns: 2;
+    text-align: center;
+}
+
+.porcentage-arrows{
+    padding-top: 0.5rem ;
+}
