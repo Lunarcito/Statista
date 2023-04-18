@@ -1,0 +1,43 @@
+.aspectScores{
+    width:100%;
+}
+.data-container{
+    width:80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.data-container{
+    text-align: center;
+}
+.data-box{
+    display:flex;
+
+}
+.data-left{
+    width:40%;
+    margin:2rem 2rem 2rem 2rem;
+    display:inline-grid;
+    text-align: left;
+}
+.data-right{
+    width:60%;
+    height: 100%;
+    margin:2rem 2rem 2rem 2rem;
+    display:grid;
+    grid-template-columns:auto auto; 
+}
+
+h3{
+    font-size: 1rem;
+    font-weight:bold;
+}
+
+.default-message{
+    text-align:center;
+    align-items: center;
+    background-color: rgb(201, 235, 224);
+    border-radius: 2rem;
+    padding:1rem 0rem 1rem 1rem;
+    font-weight: bold;
+}

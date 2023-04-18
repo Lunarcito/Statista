@@ -1,15 +1,16 @@
 import './App.css';
 import React from 'react'
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar/Navbar';
+import Navbar from './components/navbar/Navbar';
 import Aspects from './pages/aspectScores/AspectScores';
 import Benchmark from './pages/benchmark/Benchmark';
+import { ChakraProvider } from '@chakra-ui/react';
 
 function App() {
   return (
     <div className="app">
-      
-      <Navbar/>
+      <ChakraProvider>
+      <Navbar/>      
       <div className="content-container">
         <Routes>
           <Route path="/" element={ <Aspects/> }/>
@@ -17,8 +18,8 @@ function App() {
           <Route path="/benchmark" element={ <Benchmark/> }/>
         </Routes>
       </div>
-
-    </div>
+      </ChakraProvider>
+    </div>    
   );
 }
 

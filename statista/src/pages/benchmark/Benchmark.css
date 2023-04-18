@@ -1,0 +1,35 @@
+
+.datab-container{
+    width:100%;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+.datab-box{
+    display:flex;
+    justify-content: center;
+}
+.datab-left{
+    width:40%;
+    margin:2rem 2rem 2rem 2rem;
+    padding:2rem 2rem 2rem 2rem;
+    display:inline-grid;
+    text-align: left;
+    background:rgb(254, 253, 225);
+    border-radius:1.5rem;
+}
+
+.datab-right{
+    width:40%;
+    margin:2rem 2rem 2rem 2rem;
+    padding:2rem 2rem 2rem 2rem;
+    display:inline-grid;
+    text-align: left;
+    background:rgb(248, 234, 217);
+    border-radius:1.5rem;
+}
+
+h3{
+    font-size: 1rem;
+    font-weight:bold;
+}

@@ -37,31 +37,34 @@ export default function Aspects() {
         <Filter setActiveSelect={setActiveSelect}/>
           <div className="data-container">
             <h2> Aspect-based sentiment: BBQ </h2>
-            <div className="data-box">
-              <div className="data-left">
-                <SuscriptionBox/>
-                {
-                  (reviewsData != null && reviewsData.summary != null) ?
+            {
+              (reviewsData != null && reviewsData.summary != null) ?
+              <div className="data-box">
+                <div className="data-left">
+                  <SuscriptionBox/>
                   <div className="reviews-container">
                     <Reviews/>
                     <StarsView value={reviewsData.summary.value} total={reviewsData.summary.total}/>
-                    <ReviewsBar/>   
+                    <ReviewsBar value={reviewsData.details}/>   
                   </div>
-                  : null 
+                </div>
+                <div className="data-right">
+                {
+                (aspectsData !== null) ?
+                  aspectsData.map((aspect,index)=> {
+                    return(                
+                        <AspectBox  title={aspect.name} subtitle="Score out of 100" value={aspect.value}/>
+                        )
+                      })
+                    :null
                 }
+                </div>
               </div>
-            <div className="data-right">
-          {
-          (aspectsData !== null) ?
-            aspectsData.map((aspect,index)=> {
-              return(                
-                  <AspectBox  title={aspect.name} subtitle="Score out of 100" value={aspect.value}/>
-                  )
-                })
-              :null
-          }
-            </div>
-          </div>
+              : 
+              <div className='default-message'>
+                <p>To begin please select a Device Type, Brand and Model</p>
+              </div>
+            }
         </div>
       </div>
     );

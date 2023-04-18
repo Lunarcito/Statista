@@ -38,7 +38,7 @@ export default function Filter({setActiveSelect}) {
             <HStack spacing={20}>
                 <div className="filter-box">
                     <h5 className='label'>Device type</h5>  
-                    <Select bg ='RGBA(0, 0, 0, 0.16)' size="md" variant='filled' placeholder="Device" value={selectedDeviceType} onChange={(e)=>setSelectedDeviceType(e.target.value)}>
+                    <Select bg ='blue.50' size="md" variant='filled' placeholder="Device" value={selectedDeviceType} onChange={(e)=>setSelectedDeviceType(e.target.value)}>
                     {
                         rawData.filters.map((i => (
                             <option value={i.device}>{i.device}</option>
@@ -48,7 +48,7 @@ export default function Filter({setActiveSelect}) {
                 </div>
                 <div className="filter-box">
                     <h5 className='label'>Brand</h5>
-                    <Select bg ='RGBA(0, 0, 0, 0.16)' size="md" variant='filled' placeholder='Brand' value={selectedBrand} onChange={(e)=>setSelectedBrand(e.target.value)}>
+                    <Select bg ='blue.50' size="md" variant='filled' placeholder='Brand' value={selectedBrand} onChange={(e)=>setSelectedBrand(e.target.value)}>
                     {
                         rawData.filters
                         .filter((i => (i.device === selectedDeviceType)))
@@ -61,7 +61,7 @@ export default function Filter({setActiveSelect}) {
                 </div>
                 <div className="filter-box">
                     <h5 className='label'>Model</h5>
-                    <Select bg='RGBA(0, 0, 0, 0.16)' size="md" placeholder='Model' value={selectedModel} onChange={(e)=>setSelectedModel(e.target.value)}>
+                    <Select bg ='blue.50' size="md" placeholder='Model' value={selectedModel} onChange={(e)=>setSelectedModel(e.target.value)}>
                     {
                         rawData.filters
                         .filter((i => (i.device === selectedDeviceType)))
@@ -117,15 +117,14 @@ export default function Filter({setActiveSelect}) {
                     </Slider>
                     </Box>
                 </div>
-                <div className="filter-box">
+                <div className='filter-box'>
                 <Stack direction='row' spacing={4}>
-                    <Button bg ='RGBA(0, 0, 0, 0.16)' size="md" placeholder='Model' onClick={resetValues}>
+                    <Button bg ='blue.50' size="md" placeholder='Model' onClick={resetValues}>
                         Clear filters
                     </Button>
                     </Stack>
-                </div>            
-                
-            </HStack>
+                </div>
+                </HStack>
             </div>
     )
 }
