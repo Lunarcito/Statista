@@ -1,45 +1,131 @@
 import React from 'react'
-// import data from '../../data/filter.json';
+import { useState, useEffect } from "react";
+import rawData from '../../data/filter.json';
 import '../../components/filter/Filter.css';
-import {HStack} from '@chakra-ui/react';
+import {HStack, SliderThumb} from '@chakra-ui/react';
 import {Select} from '@chakra-ui/react';
 import {
-    RangeSlider,
-    RangeSliderTrack,
-    RangeSliderFilledTrack,
-    RangeSliderThumb,
+    Slider,
+    SliderMark,
+    SliderTrack,
+    SliderFilledTrack,
+    Box,
+    Stack
   } from '@chakra-ui/react'
+  import { Button} from '@chakra-ui/react'
 
-function Filter() {
+export default function Filter({setActiveSelect}) {
+    const[selectedDeviceType, setSelectedDeviceType]=useState("");
+    const[selectedBrand, setSelectedBrand]=useState("");
+    const[selectedModel, setSelectedModel]=useState("");
+    const[selectedPrice, setSelectedPrice]=useState(0);
+    const[selectedDate, setSelectedDate]=useState(0);
+
+    const resetValues = () => {
+        setSelectedDeviceType("")
+        setSelectedBrand("")
+        setSelectedModel("")
+        setSelectedPrice("")
+        setSelectedDate("")
+    };
+
+    useEffect(()=>{
+        setActiveSelect([selectedDeviceType,selectedBrand,selectedModel])
+    },[selectedDeviceType,selectedBrand,selectedModel,setActiveSelect]);
+
     return(
         <div className="filter-container">
-            <HStack spacing={3}>
-                <Select placeholder='Device'>
-                <option value='mobiles'>Mobile</option>
-                <option value='laptop'>Laptop</option>
-                <option value='tablet'>Tablet</option>
-                </Select>
-                <Select placeholder='Brand'>
-                <option value='apple'>Apple</option>
-                <option value='samsung'>Samsung</option>
-                <option value='xiaomi'>Xiaomi</option>
-                </Select>
-                <Select placeholder='Model'>
-                <option value='iphone 14'>iphone 14</option>
-                <option value='Galaxy S22'>Galaxy S22</option>
-                <option value='Xiaomi 13 Pro'>Xiaomi 13 Pro</option>
-                </Select>
-
-                <RangeSlider defaultValue={[120, 240]} min={0} max={300} step={30}>
-                    <RangeSliderTrack bg='red.100'>
-                        <RangeSliderFilledTrack bg='tomato' />
-                        </RangeSliderTrack>
-                        <RangeSliderThumb boxSize={6} index={0} />
-                        <RangeSliderThumb boxSize={6} index={1} />
-                </RangeSlider>
+            <HStack spacing={20}>
+                <div className="filter-box">
+                    <h5 className='label'>Device type</h5>  
+                    <Select bg ='RGBA(0, 0, 0, 0.16)' size="md" variant='filled' placeholder="Device" value={selectedDeviceType} onChange={(e)=>setSelectedDeviceType(e.target.value)}>
+                    {
+                        rawData.filters.map((i => (
+                            <option value={i.device}>{i.device}</option>
+                        )))
+                    }
+                    </Select>
+                </div>
+                <div className="filter-box">
+                    <h5 className='label'>Brand</h5>
+                    <Select bg ='RGBA(0, 0, 0, 0.16)' size="md" variant='filled' placeholder='Brand' value={selectedBrand} onChange={(e)=>setSelectedBrand(e.target.value)}>
+                    {
+                        rawData.filters
+                        .filter((i => (i.device === selectedDeviceType)))
+                        .flatMap((i => i.brand))
+                        .map((i => (
+                            <option value={i.name}>{i.name}</option>
+                        )))
+                    }
+                    </Select>
+                </div>
+                <div className="filter-box">
+                    <h5 className='label'>Model</h5>
+                    <Select bg='RGBA(0, 0, 0, 0.16)' size="md" placeholder='Model' value={selectedModel} onChange={(e)=>setSelectedModel(e.target.value)}>
+                    {
+                        rawData.filters
+                        .filter((i => (i.device === selectedDeviceType)))
+                        .flatMap((i => i.brand))
+                        .filter((i => (i.name === selectedBrand)))
+                        .flatMap((i => i.model))
+                        .map((i => (
+                            <option value={i}>{i}</option>
+                        )))
+                    }
+                    </Select>
+                </div>
+                <div className="filter-box">
+                    <h5>Date</h5>
+                    <Box pt={5} pb={2}>
+                    <Slider aria-label='slider-ex-6' min={1} max={12} step={1} onChange={(val) => setSelectedDate(val) }>
+                        <SliderMark value={1}>Jan</SliderMark>
+                        <SliderMark value={12}>Dec</SliderMark>
+                        <SliderMark
+                         textAlign='center'
+                         color='blue.900'
+                         mt='-8'
+                         ml='7'
+                         w='8'>
+                            {selectedDate}
+                        </SliderMark>
+                        <SliderTrack>
+                            <SliderFilledTrack bg='blue.900'/>
+                        </SliderTrack>
+                        <SliderThumb/>
+                    </Slider>
+                    </Box>
+                </div>
+                <div className="filter-box">
+                    <h5>Price</h5>
+                    <Box pt={5} pb={2}>
+                    <Slider aria-label='slider-ex-6' min={100} max={900} step={100} onChange={(val) => setSelectedPrice(val) }>
+                        <SliderMark value={100}>100</SliderMark>
+                        <SliderMark value={900}>900</SliderMark>
+                        <SliderMark value={500}>500</SliderMark>
+                        <SliderMark
+                         textAlign='center'
+                         color='blue.900'
+                         mt='-8'
+                         ml='6'
+                         w='8'>
+                            {selectedPrice}
+                        </SliderMark>
+                        <SliderTrack>
+                            <SliderFilledTrack bg='blue.900'/>
+                        </SliderTrack>
+                        <SliderThumb/>
+                    </Slider>
+                    </Box>
+                </div>
+                <div className="filter-box">
+                <Stack direction='row' spacing={4}>
+                    <Button bg ='RGBA(0, 0, 0, 0.16)' size="md" placeholder='Model' onClick={resetValues}>
+                        Clear filters
+                    </Button>
+                    </Stack>
+                </div>            
+                
             </HStack>
-           
-        </div>
+            </div>
     )
 }
-export default Filter;
