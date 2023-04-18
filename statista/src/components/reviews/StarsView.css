@@ -1,0 +1,22 @@
+.stars-score{   
+    align-items: center;
+    display:flex;
+    padding: 1rem 1rem 1rem 0rem;
+}
+
+span{
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.stars-score p{
+    font-size: 0.7rem;
+    margin-left: 6rem;
+}
+.custom-star{
+    align-items: center;
+    margin-right: 2rem;
+    margin-left: 0.5rem;
+    width: 20px;
+    
+}
+

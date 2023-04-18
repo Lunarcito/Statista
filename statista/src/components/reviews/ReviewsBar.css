@@ -1,0 +1,19 @@
+.stars-bars{   
+    align-items: center;
+    display:flex;
+    font-size: 0.7rem;
+}
+
+.stars-bars span{
+    margin: 0rem 1rem 0rem 1rem;
+}
+.stars-bars p{
+    font-size: 20px;
+}
+.custom-star{
+    align-items: center;
+    margin-right: 2rem;
+    margin-left: 0.5rem;
+    width: 20px;
+}
+

@@ -1,0 +1,8 @@
+.reviews-container{
+    background:rgb(254, 253, 225);
+    border-radius:1.5rem;
+    padding:1rem 1rem 1rem 1rem;
+    margin: 1rem 1rem 1rem 1rem;    
+    align-items: center;
+}
+
