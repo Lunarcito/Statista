@@ -1,388 +1,1157 @@
 {
-    "data": [
-      {
-        "deviceType": "Phone",
-        "brand": "Apple",
-        "model": "iPhone 14 Pro",
-        "aspects": [
-          {
-            "name": "Quality",
-            "value": 90
-          },
-          {
-            "name": "Safety",
-            "value": 72
-          },
-          {
-            "name": "Design",
-            "value": 93
-          },
-          {
-            "name": "Service",
-            "value": 64
-          },
-          {
-            "name": "Cleaning",
-            "value": 61
-          },
-          {
-            "name": "Food taste",
-            "value": 87
-          }
-        ],
-        "reviews": {
-          "summary": {
-            "value": 4.5,
-            "total": 5480
-          },
-          "details": [
-            {
-              "code": 1,
-              "total": 281,
-              "percentage": 0.01
-            },
-            {
-              "code": 2,
-              "total": 320,
-              "percentage": 0.01
-            },
-            {
-              "code": 3,
-              "total": 729,
-              "percentage": 0.04
-            },
-            {
-              "code": 4,
-              "total": 632,
-              "percentage": 0.1
-            },
-            {
-              "code": 5,
-              "total": 4135,
-              "percentage": 0.84
-            }
-          ]
+  "data": [
+    {
+      "deviceType": "Phone",
+      "brand": "Apple",
+      "model": "iPhone 14 Pro",
+      "aspects": [
+        {
+          "name": "Quality",
+          "value": 90
+        },
+        {
+          "name": "Safety",
+          "value": 72
+        },
+        {
+          "name": "Design",
+          "value": 93
+        },
+        {
+          "name": "Service",
+          "value": 64
+        },
+        {
+          "name": "Cleaning",
+          "value": 61
+        },
+        {
+          "name": "User Experience",
+          "value": 87
         }
-      },
-      {
-        "deviceType": "Phone",
-        "brand": "Apple",
-        "model": "iPhone 14 Pro Max",
-        "aspects": [
+      ],
+      "reviews": {
+        "summary": {
+          "value": 4.5,
+          "total": 5480
+        },
+        "details": [
           {
-            "name": "Quality",
-            "value": 91
+            "code": 1,
+            "total": 281,
+            "percentage": 0.01
           },
           {
-            "name": "Safety",
-            "value": 70
+            "code": 2,
+            "total": 320,
+            "percentage": 0.01
           },
           {
-            "name": "Design",
-            "value": 92
+            "code": 3,
+            "total": 729,
+            "percentage": 0.04
           },
           {
-            "name": "Service",
-            "value": 67
+            "code": 4,
+            "total": 632,
+            "percentage": 0.1
           },
           {
-            "name": "Cleaning",
-            "value": 87
-          },
-          {
-            "name": "Food taste",
-            "value": 0
+            "code": 5,
+            "total": 4135,
+            "percentage": 0.84
           }
-        ],
-        "reviews": {
-          "summary": {
-            "value": 4.5,
-            "total": 5480
-          },
-          "details": [
-            {
-              "code": 1,
-              "total": 281,
-              "percentage": 0.01
-            },
-            {
-              "code": 2,
-              "total": 320,
-              "percentage": 0.01
-            },
-            {
-              "code": 3,
-              "total": 729,
-              "percentage": 0.04
-            },
-            {
-              "code": 4,
-              "total": 632,
-              "percentage": 0.1
-            },
-            {
-              "code": 5,
-              "total": 4135,
-              "percentage": 0.84
-            }
-          ]
-        }
-      },
-      {
-        "deviceType": "Phone",
-        "brand": "Apple",
-        "model": "iPhone XS",
-        "aspects": [
-          {
-            "name": "Quality",
-            "value": 76
-          },
-          {
-            "name": "Safety",
-            "value": 88
-          },
-          {
-            "name": "Design",
-            "value": 87
-          },
-          {
-            "name": "Service",
-            "value": 89
-          },
-          {
-            "name": "Cleaning",
-            "value": 76
-          },
-          {
-            "name": "Food taste",
-            "value": 0
-          }
-        ],
-        "reviews": {
-          "summary": {
-            "value": 4.5,
-            "total": 5480
-          },
-          "details": [
-            {
-              "code": 1,
-              "total": 281,
-              "percentage": 0.01
-            },
-            {
-              "code": 2,
-              "total": 320,
-              "percentage": 0.01
-            },
-            {
-              "code": 3,
-              "total": 729,
-              "percentage": 0.04
-            },
-            {
-              "code": 4,
-              "total": 632,
-              "percentage": 0.1
-            },
-            {
-              "code": 5,
-              "total": 4135,
-              "percentage": 0.84
-            }
-          ]
-        }
-      },
-      {
-        "deviceType": "Phone",
-        "brand": "Xiaomi",
-        "model": "Redmi Note 12",
-        "aspects": [
-          {
-            "name": "Quality",
-            "value": 95
-          },
-          {
-            "name": "Safety",
-            "value": 65
-          },
-          {
-            "name": "Design",
-            "value": 91
-          },
-          {
-            "name": "Service",
-            "value": 55
-          },
-          {
-            "name": "Cleaning",
-            "value": 68
-          },
-          {
-            "name": "Food taste",
-            "value": 0
-          }
-        ],
-        "reviews": {
-          "summary": {
-            "value": 4.5,
-            "total": 5480
-          },
-          "details": [
-            {
-              "code": 1,
-              "total": 281,
-              "percentage": 0.01
-            },
-            {
-              "code": 2,
-              "total": 320,
-              "percentage": 0.01
-            },
-            {
-              "code": 3,
-              "total": 729,
-              "percentage": 0.04
-            },
-            {
-              "code": 4,
-              "total": 632,
-              "percentage": 0.1
-            },
-            {
-              "code": 5,
-              "total": 4135,
-              "percentage": 0.84
-            }
-          ]
-        }
-      },
-      {
-        "deviceType": "Phone",
-        "brand": "Xiaomi",
-        "model": "Redmi 10C",
-        "aspects": [
-          {
-            "name": "Quality",
-            "value": 78
-          },
-          {
-            "name": "Safety",
-            "value": 45
-          },
-          {
-            "name": "Design",
-            "value": 92
-          },
-          {
-            "name": "Service",
-            "value": 43
-          },
-          {
-            "name": "Cleaning",
-            "value": 77
-          },
-          {
-            "name": "Food taste",
-            "value": 0
-          }
-        ],
-        "reviews": {
-          "summary": {
-            "value": 4.5,
-            "total": 5480
-          },
-          "details": [
-            {
-              "code": 1,
-              "total": 281,
-              "percentage": 0.01
-            },
-            {
-              "code": 2,
-              "total": 320,
-              "percentage": 0.01
-            },
-            {
-              "code": 3,
-              "total": 729,
-              "percentage": 0.04
-            },
-            {
-              "code": 4,
-              "total": 632,
-              "percentage": 0.1
-            },
-            {
-              "code": 5,
-              "total": 4135,
-              "percentage": 0.84
-            }
-          ]
-        }
-      },
-      {
-        "deviceType": "Laptop",
-        "brand": "Apple",
-        "model": "Macbook Pro 13",
-        "aspects": [
-          {
-            "name": "Quality",
-            "value": 99
-          },
-          {
-            "name": "Safety",
-            "value": 89
-          },
-          {
-            "name": "Design",
-            "value": 95
-          },
-          {
-            "name": "Service",
-            "value": 78
-          },
-          {
-            "name": "Cleaning",
-            "value": 87
-          },
-          {
-            "name": "Food taste",
-            "value": 1
-          }
-        ],
-        "reviews": {
-          "summary": {
-            "value": 4.5,
-            "total": 5480
-          },
-          "details": [
-            {
-              "code": 1,
-              "total": 281,
-              "percentage": 0.01
-            },
-            {
-              "code": 2,
-              "total": 320,
-              "percentage": 0.01
-            },
-            {
-              "code": 3,
-              "total": 729,
-              "percentage": 0.04
-            },
-            {
-              "code": 4,
-              "total": 632,
-              "percentage": 0.1
-            },
-            {
-              "code": 5,
-              "total": 4135,
-              "percentage": 0.84
-            }
-          ]
-        }
+        ]
       }
-    ]
-  }
+    },
+    {
+      "deviceType": "Phone",
+      "brand": "Apple",
+      "model": "iPhone 13 Pro",
+      "aspects": [
+        {
+          "name": "Quality",
+          "value": 80
+        },
+        {
+          "name": "Safety",
+          "value": 71
+        },
+        {
+          "name": "Design",
+          "value": 92
+        },
+        {
+          "name": "Service",
+          "value": 65
+        },
+        {
+          "name": "Cleaning",
+          "value": 64
+        },
+        {
+          "name": "User Experience",
+          "value": 77
+        }
+      ],
+      "reviews": {
+        "summary": {
+          "value": 2.5,
+          "total": 80
+        },
+        "details": [
+          {
+            "code": 1,
+            "total": 281,
+            "percentage": 0.01
+          },
+          {
+            "code": 2,
+            "total": 320,
+            "percentage": 0.01
+          },
+          {
+            "code": 3,
+            "total": 729,
+            "percentage": 0.04
+          },
+          {
+            "code": 4,
+            "total": 632,
+            "percentage": 0.1
+          },
+          {
+            "code": 5,
+            "total": 4135,
+            "percentage": 0.84
+          }
+        ]
+      }
+    },
+    {
+      "deviceType": "Phone",
+      "brand": "Apple",
+      "model": "iPhone 14 Pro Max",
+      "aspects": [
+        {
+          "name": "Quality",
+          "value": 91
+        },
+        {
+          "name": "Safety",
+          "value": 70
+        },
+        {
+          "name": "Design",
+          "value": 92
+        },
+        {
+          "name": "Service",
+          "value": 67
+        },
+        {
+          "name": "Cleaning",
+          "value": 87
+        },
+        {
+          "name": "Food taste",
+          "value": 0
+        }
+      ],
+      "reviews": {
+        "summary": {
+          "value": 5,
+          "total": 480
+        },
+        "details": [
+          {
+            "code": 1,
+            "total": 281,
+            "percentage": 0.01
+          },
+          {
+            "code": 2,
+            "total": 320,
+            "percentage": 0.01
+          },
+          {
+            "code": 3,
+            "total": 729,
+            "percentage": 0.04
+          },
+          {
+            "code": 4,
+            "total": 632,
+            "percentage": 0.1
+          },
+          {
+            "code": 5,
+            "total": 4135,
+            "percentage": 0.84
+          }
+        ]
+      }
+    },
+    {
+      "deviceType": "Phone",
+      "brand": "Apple",
+      "model": "iPhone XS",
+      "aspects": [
+        {
+          "name": "Quality",
+          "value": 76
+        },
+        {
+          "name": "Safety",
+          "value": 88
+        },
+        {
+          "name": "Design",
+          "value": 87
+        },
+        {
+          "name": "Service",
+          "value": 89
+        },
+        {
+          "name": "Cleaning",
+          "value": 76
+        },
+        {
+          "name": "User Experience",
+          "value": 0
+        }
+      ],
+      "reviews": {
+        "summary": {
+          "value": 2.3,
+          "total": 5480
+        },
+        "details": [
+          {
+            "code": 1,
+            "total": 281,
+            "percentage": 0.01
+          },
+          {
+            "code": 2,
+            "total": 320,
+            "percentage": 0.01
+          },
+          {
+            "code": 3,
+            "total": 729,
+            "percentage": 0.04
+          },
+          {
+            "code": 4,
+            "total": 632,
+            "percentage": 0.1
+          },
+          {
+            "code": 5,
+            "total": 4135,
+            "percentage": 0.84
+          }
+        ]
+      }
+    },
+    {
+      "deviceType": "Phone",
+      "brand": "Xiaomi",
+      "model": "Redmi Note 12",
+      "aspects": [
+        {
+          "name": "Quality",
+          "value": 95
+        },
+        {
+          "name": "Safety",
+          "value": 65
+        },
+        {
+          "name": "Design",
+          "value": 91
+        },
+        {
+          "name": "Service",
+          "value": 55
+        },
+        {
+          "name": "Cleaning",
+          "value": 68
+        },
+        {
+          "name": "User Experience",
+          "value": 0
+        }
+      ],
+      "reviews": {
+        "summary": {
+          "value": 4.5,
+          "total": 5480
+        },
+        "details": [
+          {
+            "code": 1,
+            "total": 281,
+            "percentage": 0.01
+          },
+          {
+            "code": 2,
+            "total": 320,
+            "percentage": 0.01
+          },
+          {
+            "code": 3,
+            "total": 729,
+            "percentage": 0.04
+          },
+          {
+            "code": 4,
+            "total": 632,
+            "percentage": 0.1
+          },
+          {
+            "code": 5,
+            "total": 4135,
+            "percentage": 0.84
+          }
+        ]
+      }
+    },
+    {
+      "deviceType": "Phone",
+      "brand": "Xiaomi",
+      "model": "Redmi 10C",
+      "aspects": [
+        {
+          "name": "Quality",
+          "value": 78
+        },
+        {
+          "name": "Safety",
+          "value": 45
+        },
+        {
+          "name": "Design",
+          "value": 92
+        },
+        {
+          "name": "Service",
+          "value": 43
+        },
+        {
+          "name": "Cleaning",
+          "value": 77
+        },
+        {
+          "name": "Food taste",
+          "value": 0
+        }
+      ],
+      "reviews": {
+        "summary": {
+          "value": 4.5,
+          "total": 5480
+        },
+        "details": [
+          {
+            "code": 1,
+            "total": 281,
+            "percentage": 0.01
+          },
+          {
+            "code": 2,
+            "total": 320,
+            "percentage": 0.01
+          },
+          {
+            "code": 3,
+            "total": 729,
+            "percentage": 0.04
+          },
+          {
+            "code": 4,
+            "total": 632,
+            "percentage": 0.1
+          },
+          {
+            "code": 5,
+            "total": 4135,
+            "percentage": 0.84
+          }
+        ]
+      }
+    },
+    {
+      "deviceType": "Laptop",
+      "brand": "Samsung",
+      "model": "Galaxy BookPro",
+      "aspects": [
+        {
+          "name": "Quality",
+          "value": 92
+        },
+        {
+          "name": "Safety",
+          "value": 70
+        },
+        {
+          "name": "Design",
+          "value": 91
+        },
+        {
+          "name": "Service",
+          "value": 65
+        },
+        {
+          "name": "Cleaning",
+          "value": 63
+        },
+        {
+          "name": "User Experience",
+          "value": 1
+        }
+      ],
+      "reviews": {
+        "summary": {
+          "value": 4.5,
+          "total": 5480
+        },
+        "details": [
+          {
+            "code": 1,
+            "total": 281,
+            "percentage": 0.01
+          },
+          {
+            "code": 2,
+            "total": 320,
+            "percentage": 0.01
+          },
+          {
+            "code": 3,
+            "total": 729,
+            "percentage": 0.04
+          },
+          {
+            "code": 4,
+            "total": 632,
+            "percentage": 0.1
+          },
+          {
+            "code": 5,
+            "total": 4135,
+            "percentage": 0.84
+          }
+        ]
+      }
+    },
+    {
+      "deviceType": "Laptop",
+      "brand": "Apple",
+      "model": "MacBook Air",
+      "aspects": [
+        {
+          "name": "Quality",
+          "value": 95
+        },
+        {
+          "name": "Safety",
+          "value": 90
+        },
+        {
+          "name": "Design",
+          "value": 93
+        },
+        {
+          "name": "Service",
+          "value": 69
+        },
+        {
+          "name": "Cleaning",
+          "value": 70
+        },
+        {
+          "name": "User Experience",
+          "value": 90
+        }
+      ],
+      "reviews": {
+        "summary": {
+          "value": 4.5,
+          "total": 5480
+        },
+        "details": [
+          {
+            "code": 1,
+            "total": 281,
+            "percentage": 0.01
+          },
+          {
+            "code": 2,
+            "total": 320,
+            "percentage": 0.01
+          },
+          {
+            "code": 3,
+            "total": 729,
+            "percentage": 0.04
+          },
+          {
+            "code": 4,
+            "total": 632,
+            "percentage": 0.1
+          },
+          {
+            "code": 5,
+            "total": 2135,
+            "percentage": 0.81
+          }
+        ]
+      }
+    },
+    {
+      "deviceType": "Laptop",
+      "brand": "Apple",
+      "model": "iMac",
+      "aspects": [
+        {
+          "name": "Quality",
+          "value": 88
+        },
+        {
+          "name": "Safety",
+          "value": 69
+        },
+        {
+          "name": "Design",
+          "value": 84
+        },
+        {
+          "name": "Service",
+          "value": 78
+        },
+        {
+          "name": "Cleaning",
+          "value": 79
+        },
+        {
+          "name": "User Experience",
+          "value": 69
+        }
+      ],
+      "reviews": {
+        "summary": {
+          "value": 3.9,
+          "total": 3257
+        },
+        "details": [
+          {
+            "code": 1,
+            "total": 781,
+            "percentage": 0.1
+          },
+          {
+            "code": 2,
+            "total": 320,
+            "percentage": 0.01
+          },
+          {
+            "code": 3,
+            "total": 129,
+            "percentage": 0.04
+          },
+          {
+            "code": 4,
+            "total": 210,
+            "percentage": 0.04
+          },
+          {
+            "code": 5,
+            "total": 3135,
+            "percentage": 0.75
+          }
+        ]
+      }
+    },
+    {
+      "deviceType": "Phone",
+      "brand": "Samsung",
+      "model": "Galaxy S22",
+      "aspects": [
+        {
+          "name": "Quality",
+          "value": 90
+        },
+        {
+          "name": "Safety",
+          "value": 70
+        },
+        {
+          "name": "Design",
+          "value": 91
+        },
+        {
+          "name": "Service",
+          "value": 64
+        },
+        {
+          "name": "Cleaning",
+          "value": 61
+        },
+        {
+          "name": "User Experience",
+          "value": 80
+        }
+      ],
+      "reviews": {
+        "summary": {
+          "value": 3.4,
+          "total": 2809
+        },
+        "details": [
+          {
+            "code": 1,
+            "total": 179,
+            "percentage": 0.01
+          },
+          {
+            "code": 2         ,
+            "total": 315,
+            "percentage": 0.01
+          },
+          {
+            "code": 3,
+            "total": 719,
+            "percentage": 0.04
+          },
+          {
+            "code": 4,
+            "total": 525,
+            "percentage": 0.1
+          },
+          {
+            "code": 5,
+            "total": 4135,
+            "percentage": 0.84
+          }
+        ]
+      }
+    },
+    {
+      "deviceType": "Phone",
+      "brand": "Samsung",
+      "model": "Galaxy S23 Ultra",
+      "aspects": [
+        {
+          "name": "Quality",
+          "value": 93
+        },
+        {
+          "name": "Safety",
+          "value": 75
+        },
+        {
+          "name": "Design",
+          "value": 94
+        },
+        {
+          "name": "Service",
+          "value": 65
+        },
+        {
+          "name": "Cleaning",
+          "value": 64
+        },
+        {
+          "name": "User Experience",
+          "value": 77
+        }
+      ],
+      "reviews": {
+        "summary": {
+          "value": 4.5,
+          "total": 5480
+        },
+        "details": [
+          {
+            "code": 1,
+            "total": 281,
+            "percentage": 0.01
+          },
+          {
+            "code": 2,
+            "total": 320,
+            "percentage": 0.01
+          },
+          {
+            "code": 3,
+            "total": 729,
+            "percentage": 0.04
+          },
+          {
+            "code": 4,
+            "total": 632,
+            "percentage": 0.1
+          },
+          {
+            "code": 5,
+            "total": 4135,
+            "percentage": 0.84
+          }
+        ]
+      }
+    },
+    {
+      "deviceType": "Phone",
+      "brand": "Samsung",
+      "model": "Galaxy A53",
+      "aspects": [
+        {
+          "name": "Quality",
+          "value": 69
+        },
+        {
+          "name": "Safety",
+          "value": 65
+        },
+        {
+          "name": "Design",
+          "value": 73
+        },
+        {
+          "name": "Service",
+          "value": 67
+        },
+        {
+          "name": "Cleaning",
+          "value": 65
+        },
+        {
+          "name": "User Experience",
+          "value": 52
+        }
+      ],
+      "reviews": {
+        "summary": {
+          "value": 2.5,
+          "total": 1280
+        },
+        "details": [
+          {
+            "code": 1,
+            "total": 281,
+            "percentage": 0.01
+          },
+          {
+            "code": 2,
+            "total": 1320,
+            "percentage": 0.05
+          },
+          {
+            "code": 3,
+            "total": 729,
+            "percentage": 0.04
+          },
+          {
+            "code": 4,
+            "total": 632,
+            "percentage": 0.1
+          },
+          {
+            "code": 5,
+            "total": 41,
+            "percentage": 0.01
+          },
+          {
+            "deviceType": "Laptop",
+            "brand": "Apple",
+            "model": "MacBook Air",
+            "aspects": [
+              {
+                "name": "Quality",
+                "value": 95
+              },
+              {
+                "name": "Safety",
+                "value": 90
+              },
+              {
+                "name": "Design",
+                "value": 93
+              },
+              {
+                "name": "Service",
+                "value": 69
+              },
+              {
+                "name": "Cleaning",
+                "value": 70
+              },
+              {
+                "name": "User Experience",
+                "value": 90
+              }
+            ],
+            "reviews": {
+              "summary": {
+                "value": 4.5,
+                "total": 5480
+              },
+              "details": [
+                {
+                  "code": 1,
+                  "total": 281,
+                  "percentage": 0.01
+                },
+                {
+                  "code": 2,
+                  "total": 320,
+                  "percentage": 0.01
+                },
+                {
+                  "code": 3,
+                  "total": 729,
+                  "percentage": 0.04
+                },
+                {
+                  "code": 4,
+                  "total": 632,
+                  "percentage": 0.1
+                },
+                {
+                  "code": 5,
+                  "total": 2135,
+                  "percentage": 0.81
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "deviceType": "Laptop",
+      "brand": "Samsung",
+      "model": "Galaxy Book3",
+      "aspects": [
+        {
+          "name": "Quality",
+          "value": 88
+        },
+        {
+          "name": "Safety",
+          "value": 70
+        },
+        {
+          "name": "Design",
+          "value": 75
+        },
+        {
+          "name": "Service",
+          "value": 62
+        },
+        {
+          "name": "Cleaning",
+          "value": 63
+        },
+        {
+          "name": "User Experience",
+          "value": 50
+        }
+      ],
+      "reviews": {
+        "summary": {
+          "value": 4.5,
+          "total": 5480
+        },
+        "details": [
+          {
+            "code": 1,
+            "total": 281,
+            "percentage": 0.01
+          },
+          {
+            "code": 2,
+            "total": 320,
+            "percentage": 0.01
+          },
+          {
+            "code": 3,
+            "total": 729,
+            "percentage": 0.04
+          },
+          {
+            "code": 4,
+            "total": 632,
+            "percentage": 0.1
+          },
+          {
+            "code": 5,
+            "total": 4135,
+            "percentage": 0.84
+          }
+        ]
+      }
+    },
+    {
+      "deviceType": "Laptop",
+      "brand": "Samsung",
+      "model": "Galaxy BookPro 3",
+      "aspects": [
+        {
+          "name": "Quality",
+          "value": 83
+        },
+        {
+          "name": "Safety",
+          "value": 74
+        },
+        {
+          "name": "Design",
+          "value": 68
+        },
+        {
+          "name": "Service",
+          "value": 69
+        },
+        {
+          "name": "Cleaning",
+          "value": 70
+        },
+        {
+          "name": "User Experience",
+          "value": 69
+        }
+      ],
+      "reviews": {
+        "summary": {
+          "value": 4.5,
+          "total": 5480
+        },
+        "details": [
+          {
+            "code": 1,
+            "total": 281,
+            "percentage": 0.01
+          },
+          {
+            "code": 2,
+            "total": 320,
+            "percentage": 0.01
+          },
+          {
+            "code": 3,
+            "total": 729,
+            "percentage": 0.04
+          },
+          {
+            "code": 4,
+            "total": 632,
+            "percentage": 0.1
+          },
+          {
+            "code": 5,
+            "total": 2135,
+            "percentage": 0.81
+          }
+        ]
+      }
+    },
+    {
+      "deviceType": "Laptop",
+      "brand": "Xiaomi",
+      "model": "Xiaomi Redmi",
+      "aspects": [
+        {
+          "name": "Quality",
+          "value": 75
+        },
+        {
+          "name": "Safety",
+          "value": 69
+        },
+        {
+          "name": "Design",
+          "value": 68
+        },
+        {
+          "name": "Service",
+          "value": 69
+        },
+        {
+          "name": "Cleaning",
+          "value": 70
+        },
+        {
+          "name": "User Experience",
+          "value": 69
+        }
+      ],
+      "reviews": {
+        "summary": {
+          "value": 4.5,
+          "total": 5480
+        },
+        "details": [
+          {
+            "code": 1,
+            "total": 281,
+            "percentage": 0.01
+          },
+          {
+            "code": 2,
+            "total": 320,
+            "percentage": 0.01
+          },
+          {
+            "code": 3,
+            "total": 729,
+            "percentage": 0.04
+          },
+          {
+            "code": 4,
+            "total": 632,
+            "percentage": 0.1
+          },
+          {
+            "code": 5,
+            "total": 2135,
+            "percentage": 0.81
+          }
+        ]
+      }
+    },
+    {
+      "deviceType": "Laptop",
+      "brand": "Xiaomi",
+      "model": "Xiaomi Book Pro",
+      "aspects": [
+        {
+          "name": "Quality",
+          "value": 80
+        },
+        {
+          "name": "Safety",
+          "value": 69
+        },
+        {
+          "name": "Design",
+          "value": 84
+        },
+        {
+          "name": "Service",
+          "value": 78
+        },
+        {
+          "name": "Cleaning",
+          "value": 79
+        },
+        {
+          "name": "User Experience",
+          "value": 69
+        }
+      ],
+      "reviews": {
+        "summary": {
+          "value": 3.9,
+          "total": 3257
+        },
+        "details": [
+          {
+            "code": 1,
+            "total": 781,
+            "percentage": 0.1
+          },
+          {
+            "code": 2,
+            "total": 320,
+            "percentage": 0.01
+          },
+          {
+            "code": 3,
+            "total": 129,
+            "percentage": 0.04
+          },
+          {
+            "code": 4,
+            "total": 210,
+            "percentage": 0.04
+          },
+          {
+            "code": 5,
+            "total": 3135,
+            "percentage": 0.75
+          },
+          {
+            "deviceType": "Laptop",
+            "brand": "Apple",
+            "model": "iMac",
+            "aspects": [
+              {
+                "name": "Quality",
+                "value": 88
+              },
+              {
+                "name": "Safety",
+                "value": 69
+              },
+              {
+                "name": "Design",
+                "value": 84
+              },
+              {
+                "name": "Service",
+                "value": 78
+              },
+              {
+                "name": "Cleaning",
+                "value": 79
+              },
+              {
+                "name": "User Experience",
+                "value": 69
+              }
+            ],
+            "reviews": {
+              "summary": {
+                "value": 3.9,
+                "total": 3257
+              },
+              "details": [
+                {
+                  "code": 1,
+                  "total": 781,
+                  "percentage": 0.1
+                },
+                {
+                  "code": 2,
+                  "total": 320,
+                  "percentage": 0.01
+                },
+                {
+                  "code": 3,
+                  "total": 129,
+                  "percentage": 0.04
+                },
+                {
+                  "code": 4,
+                  "total": 210,
+                  "percentage": 0.04
+                },
+                {
+                  "code": 5,
+                  "total": 3135,
+                  "percentage": 0.75
+                }
+              ]
+            }
+          }         
+          
+        ]
+      }
+    }
+  ]
+}
