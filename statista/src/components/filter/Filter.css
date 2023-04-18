@@ -1,11 +1,16 @@
 .filter-container{
-    display:flex;
-    align-content:center;
-    flex-direction:row;
-    /* width:100%; */
-    padding:  2rem 0 2rem; 
-    font-size: 14px; 
-    /* background-color: rgb(57, 168, 111); */
-    /* color:white;   */
+    margin:2rem 2rem 2rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align:center;
 }
 
+.filter-box{
+    justify-content:center;
+    width:100%;
+    padding:0rem 0rem 0rem 0rem;
+    margin:0rem 0rem 0rem 0rem;   
+}
+.label{
+    margin-bottom: 0.9rem ;
+}
