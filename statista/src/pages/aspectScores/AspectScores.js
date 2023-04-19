@@ -21,13 +21,12 @@ export default function Aspects() {
         e => e.deviceType === activeSelect[0] 
         && e.brand === activeSelect[1]
         && e.model === activeSelect[2])
-        console.log("FilterData")
-        console.log(filterData)
         if (filterData.length > 0) {
           setAspectsData(filterData[0].aspects)
           setReviewsData(filterData[0].reviews)
         } else {
           setAspectsData(null)
+          setReviewsData(null)
         }
       }    
     },[activeSelect]);
